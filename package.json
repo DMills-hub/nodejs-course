@@ -1,0 +1,48 @@
+{
+  "name": "nodejs-complete-guide",
+  "version": "1.0.0",
+  "description": "NodeJS Course",
+  "main": "app.js",
+  "engines": {
+    "node": "12.13.1"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Daniel Mills",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.1",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.0.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.3.1",
+    "csurf": "^1.11.0",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.4.0",
+    "helmet": "^3.22.0",
+    "mongodb": "^3.5.6",
+    "mongoose": "^5.9.9",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "mysql2": "^2.1.0",
+    "nodemailer": "^6.4.6",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "pdfkit": "^0.11.0",
+    "pug": "^2.0.3",
+    "sequelize": "^5.21.6",
+    "stripe": "^8.44.0"
+  }
+}
